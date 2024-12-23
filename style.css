@@ -1,0 +1,287 @@
+body {
+  background-color: #1e202b;
+}
+
+.hero {
+  height: 50vh;
+  background-image: url(./imges/banner.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.forcast-header,
+.contact-header {
+  background-color: #1e202b;
+}
+
+
+.navbar-nav .nav-link.active {
+  border: 1px solid #009ad8;
+  border-radius: 30px;
+  color: #009ad8;
+}
+
+
+.nav-item .nav-link {
+  margin-inline: 5px;
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  padding: 5px 20px !important;
+  transition: all 0.2s ease-in;
+}
+
+.navbar-nav .nav-link:hover {
+  border: 1px solid #009ad8;
+  color: #009ad8;
+
+}
+
+.navbar-brand img {
+  width: 55px;
+}
+
+.navbar-brand .title h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+.navbar-brand .title small {
+  color: #bfc1c8;
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 15px;
+}
+
+.search input {
+  padding: 15px 40px 15px 15px;
+  margin-top: 40px;
+  width: 85%;
+  border: none;
+  background-color: #1e202b;
+}
+
+.search input:focus {
+  background-color: #1e202b;
+}
+
+.search input::placeholder {
+  color: #bfc1c8;
+}
+
+.search button {
+  padding: 10px 35px;
+  position: absolute;
+  right: 8%;
+  bottom: 5%;
+}
+
+
+
+.box {
+  margin-top: -150px;
+}
+
+.box .header {
+  background-color: #262936;
+  color: #bfc1c8;
+  padding: 10px;
+}
+
+#today {
+  background-color: #262936;
+  padding: 0;
+}
+
+#second-day {
+  background-color: #1e202b;
+}
+
+#second-day #degree,
+#third-day #degree {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  color: white;
+}
+
+#second-day #deg,
+#third-day #deg {
+  color: #bfc1c8;
+}
+
+#third-day {
+  background-color: #262936;
+}
+
+#third-day .header,
+#second-day .header,
+#today .header {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+
+#location {
+  color: #bfc1c8;
+  font-size: 19px;
+  line-height: 27px;
+  font-weight: 400;
+}
+
+.degree #num {
+  font-size: 70px;
+  font-weight: 700;
+}
+
+.forcast-icn i {
+  font-size: 35px;
+  color: #009ad8;
+}
+
+#custom {
+  color: #009ad8;
+}
+
+#today span {
+  color: #bfc1c8;
+  margin-inline: 10px;
+
+}
+
+.btn {
+  background-color: #009ad8 !important;
+  color: white !important;
+}
+
+
+
+
+.site-footer {
+  background-color: #262936;
+  margin-top: 15px;
+}
+
+.site-footer form input {
+  width: 90%;
+  padding: 15px 20px;
+  border-radius: 30px;
+  background-color: #1e202b;
+  border: none;
+  box-shadow: none;
+}
+
+.site-footer form input:focus {
+  background-color: #1e202b;
+  box-shadow: none;
+}
+
+.site-footer form input::placeholder {
+  color: #bfc1c8;
+}
+
+.site-footer form button {
+  border-radius: 30px;
+  padding: 10px 15px;
+  right: 5.5%;
+
+}
+
+
+.site-footer ul li {
+  list-style: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #1e202b;
+  color: #009ad8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease;
+}
+
+.site-footer ul li:hover {
+  background-color: #009ad8;
+  color: white;
+}
+
+.site-footer p {
+  color: #bfc1c8;
+  line-height: 21px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+/* -------------Contact------------- */
+
+.link-home {
+  background-color: #262936;
+  border-radius: 30px;
+  padding: 15px;
+}
+
+.link-home a {
+  color: #bfc1c8;
+}
+
+.link-home a:hover {
+  text-decoration: underline !important;
+}
+
+.contact {
+  padding: 0;
+}
+
+.contact .inside {
+  background-color: #262936;
+}
+
+.contact i {
+  color: #009ad8;
+
+}
+
+.contact p {
+  color: #bfc1c8;
+}
+
+.contact-form {
+  color: #bfc1c8;
+}
+
+
+.contact-form input,
+.contact-form textarea {
+  background-color: #1e202b;
+  border: 1px solid #262936;
+  padding: 15px;
+  border-radius: 30px;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #bfc1c8;
+}
+
+.contact-form input:hover,
+.contact-form textarea:hover {
+  border: 1px solid #009ad8;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  box-shadow: none;
+  background-color: #1e202b;
+  border: 1px solid #009ad8;
+
+}
+
+.contact-form button {
+  border-radius: 30px;
+}
